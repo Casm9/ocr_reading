@@ -16,24 +16,32 @@ know whether this package might be useful for them.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Will be added later.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+packages need for use this library:   
+    google_mlkit_text_recognition: ^0.13.0 (use their latest version)
+    gallery_picker: ^0.5.1 (use their latest version)
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+class OcrReading extends StatelessWidget {
+  const OcrReading({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: OcrReading(
+          emptyTextMessageForImage = "Pick an image for text recognition",
+          imageWidth = 200,
+          emptyTextMessageForText = "No result.",
+          textFontSize = 25
+        ),
+      ),
+    );
+  }
+}
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.

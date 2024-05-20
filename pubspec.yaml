@@ -1,7 +1,8 @@
 name: ocr_reading
-description: A new Flutter project.
+description: A package for ocr reading container with functionality that you can modify variables.
 version: 0.0.1
-homepage:
+homepage: https://github.com/Casm9/ocr_reading
+repository: https://github.com/Casm9/ocr_reading.git
 
 environment:
   sdk: '>=2.19.5 <3.0.0'
