@@ -11,8 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+The ocr_reading package contains a number of useful containers with functionality that can help you with building ocr reading screens for your app. The package contains image container and result text.
 
 ## Features
 
