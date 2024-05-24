@@ -17,12 +17,6 @@ The ocr_reading package contains a number of useful containers with functionalit
 
 Will be added later.
 
-## Getting started
-
-packages need for use this library:   
-# google_mlkit_text_recognition: ^0.13.0 (use their latest version)
-# gallery_picker: ^0.5.1 (use their latest version)
-
 ## Usage
 
 ```dart
