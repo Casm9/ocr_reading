@@ -15,7 +15,7 @@ The ocr_reading package contains a number of useful containers with functionalit
 
 ## Features
 
-Will be added later.
+![](https://raw.githubusercontent.com/Casm9/my-github-storage/main/ocr-reading.jpg)
 
 ## Usage
 
